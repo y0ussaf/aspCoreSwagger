@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication2</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication2.Controllers.TodoItemsController.GetTodoItems">
+            <summary>
+            get all items 
+            </summary>
+            
+            
+        </member>
+        <member name="M:WebApplication2.Controllers.TodoItemsController.PutTodoItem(System.Int64,WebApplication2.models.TodoItem)">
+            <summary>
+            update an item 
+            </summary>
+            <param name="id"></param>
+            <param name="todoItem"></param>
+            <remarks>exemple 
+            
+            { 
+               id : 2,
+               isComplete:true ,
+               name: "item1"
+            }
+            
+            </remarks>
+            <response code="201">Returns the newly created item</response>
+             
+        </member>
+    </members>
+</doc>
